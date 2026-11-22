@@ -1,0 +1,8 @@
+
+<resources>
+    <string name="app_name">DEVSHREE</string>
+    <string name="tagline">Professional Video Editor</string>
+    <string name="import_media">Import videos &amp; photos</string>
+    <string name="no_media_selected">No media selected yet</string>
+    <string name="media_selected">%1$d item(s) selected</string>
+</resources>
