@@ -1,4 +1,5 @@
 
+
 name: Build DEVSHREE APK
 
 on:
@@ -22,9 +23,10 @@ jobs:
           java-version: '17'
 
       - name: Set up Android SDK
-  uses: android-actions/setup-android@v3
-  with:
-    accept-android-sdk-licenses: true
+        uses: android-actions/setup-android@v3
+        with:
+          accept-android-sdk-licenses: true
+
       - name: Build APK
         run: |
           chmod +x gradlew
